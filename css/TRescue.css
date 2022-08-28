@@ -1,0 +1,122 @@
+/*Bottone Indietro*/
+.retro {
+ width: 60px;
+ height: 45px;
+ border-color: transparent;
+ border-radius: 40px;
+ background-color: red;
+ box-shadow: 0px 0px 15px green;
+ font-size: large;
+ color: #000;
+}
+         
+.retro:hover {
+ opacity: .7;
+}
+         
+.retro:active {
+ background-color: #000;
+ color: red;
+ box-shadow: 0px 0px 55px yellow;
+}
+
+/*Informazioni*/
+.containerI {
+ width: 875px;
+ border: 1px solid transparent;
+ padding: 10px;
+ border-radius: 15px;
+ position: relative;
+ left: 230px;
+ column-count: 2;
+ column-gap: 25px;
+}
+
+.I2 {
+ position: relative;
+ left: 180px;
+}
+
+@media screen and (max-width: 1250px) {
+ .containerI {
+  width: auto;
+  left: 172px;
+ }
+ .I2 {
+  left: auto;
+ }
+}
+
+@media screen and (max-width: 1000px) {
+ .containerI {
+  width: auto;
+  left: 115px;
+ }
+ .I2 {
+  left: auto;
+ }
+}
+
+@media screen and (max-width: 750px) {
+ .containerI {
+  width: auto;
+  left: 25px;
+ }
+ .I2 {
+  left: auto;
+ }
+}
+
+@media screen and (max-width: 500px) {
+ .containerI {
+  width: auto;
+  left: auto;
+ }
+ .I2 {
+  left: auto;
+ }
+}
+
+/*Bottone English*/
+.BE {
+ width: 75px;
+ height: 45px;
+ border-color: transparent;
+ border-radius: 40px;
+ background-color: blue;
+ box-shadow: 0px 0px 15px #fff;
+ font-size: large;
+ color: red;
+}
+            
+.BE:hover {
+ opacity: .7;
+}
+            
+.BE:active {
+ background-color: red;
+ color: blue;
+ box-shadow: 0px 0px 55px yellow;
+}
+
+/*Bottone English*/
+.BI {
+ width: 75px;
+ height: 45px;
+ border-color: transparent;
+ border-radius: 40px;
+ background-color: green;
+ box-shadow: 0px 0px 15px #fff;
+ font-size: large;
+ color: red;
+}
+               
+.BI:hover {
+ opacity: .7;
+}
+               
+.BI:active {
+ background-color: red;
+ color: green;
+ box-shadow: 0px 0px 55px yellow;
+}
