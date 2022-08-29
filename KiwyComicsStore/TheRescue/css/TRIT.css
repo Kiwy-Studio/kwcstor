@@ -1,0 +1,30 @@
+/*Bottone Indietro*/
+.retro {
+ width: 60px;
+ height: 45px;
+ border-color: transparent;
+ border-radius: 40px;
+ background-color: red;
+ box-shadow: 0px 0px 15px green;
+ font-size: large;
+ color: #000;
+}
+            
+.retro:hover {
+ opacity: .7;
+}
+            
+.retro:active {
+ background-color: #000;
+ color: red;
+ box-shadow: 0px 0px 55px yellow;
+}
+
+/*Ch.1*/
+.Ch1 {
+ color: transparent;
+}
+   
+.Ch1:hover {
+ color: transparent;
+}
