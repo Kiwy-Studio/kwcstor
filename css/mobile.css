@@ -1,0 +1,15 @@
+/*Sfondo*/
+body {
+  background-color: orange;
+}
+
+/*The Rescue*/
+.ThRe {
+ color: transparent;
+}
+
+.ThRe:hover {
+ color: transparent;
+ opacity: .7;
+ zoom: 120%;
+}
